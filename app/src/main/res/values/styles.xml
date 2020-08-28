@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextView" parent="android:TextAppearance">
+        <item name="android:textColor">@color/colorTextViewSecondary</item>
+        <item name="android:gravity">left</item>
+    </style>
+
+    <style name="TextView.Medium" parent="TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextView.MediumBold" parent="TextView.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextTabLayout" parent="TextView.MediumBold">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TabLayoutTheme" parent="Base.Widget.Design.TabLayout">
+        <item name="tabRippleColor">@color/divider</item>
+        <item name="tabTextAppearance">@style/TextTabLayout</item>
+    </style>
+
+    <color name="colorTextViewSecondary">#6F6F6F</color>
+    <color name="divider">#DADADA</color>
+</resources>

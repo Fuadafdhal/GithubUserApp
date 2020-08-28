@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GithubUserApp</string>
+
+    <string name="desc_image_profile_user_github">Image Profile User Github</string>
+    <string name="example_lorem_ipsum">Lorem Ipsum</string>
+
+    <string name="api_key">6b827fcaf40ccb8a6f905bd5400f5de0ec5b69dd</string>
+</resources>
